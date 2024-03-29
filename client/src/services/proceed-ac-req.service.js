@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = 'http://localhost:5000/api/service/proceed/ac/';
+const API_URL = 'https://invsys-1.onrender.com/api/service/proceed/ac/';
 
 class ProceedAcService {
     create(requestId, nonacademicId) {

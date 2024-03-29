@@ -30,7 +30,7 @@ export default class BoardUser extends Component {
     }
 
     fetchTotalRequests() {
-        fetch('http://localhost:5000/api/requests/total')
+        fetch('https://invsys-1.onrender.com/api/requests/total')
             .then(response => response.json())
             .then(data => this.setState({ totalRequests: data.total }))
             .catch(error => console.error('Error fetching total requests:', error));

@@ -6,7 +6,7 @@ const app = express();
 
 // Middleware setup
 var corsOptions = {
-    origin: "http://localhost:3000",
+    origin: "https://invsys-1.onrender.com",
 };
 
 app.use(cors(corsOptions));

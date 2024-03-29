@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = 'http://localhost:5000/api/item/issue/';
+const API_URL = 'https://invsys-1.onrender.com/api/item/issue/';
 
 class IssueStudService {
     create(requestId, nonacademicId, returnBefore) {

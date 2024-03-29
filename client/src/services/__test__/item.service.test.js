@@ -13,6 +13,6 @@ describe('Item Serives API calls Testing', () => {
 
         expect(allItems.data).toEqual(["item1", "item2", "item3", "item4"]);
         expect(mockAxios.get).toHaveBeenCalledTimes(1);
-        expect(mockAxios.get).toHaveBeenCalledWith("http://localhost:5000/api/item/getall");
+        expect(mockAxios.get).toHaveBeenCalledWith("https://invsys-1.onrender.com/api/item/getall");
     });
 });

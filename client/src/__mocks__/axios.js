@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/api/auth/";
+const API_URL = "https://invsys-1.onrender.com/api/auth/";
 
 export default {
     get: jest.fn(() => Promise.resolve({ data: {} })),

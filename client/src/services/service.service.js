@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/services/";
+const API_URL = "https://invsys-1.onrender.com/api/services/";
 
 class DeptService {
   create(service_no, service_name, description, availability) {

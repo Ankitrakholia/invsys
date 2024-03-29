@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/item/ac/req/";
+const API_URL = "https://invsys-1.onrender.com/api/item/ac/req/";
 
 class AcaItemReqService {
     create(academicId, item_no, quantity, reason, status) {
@@ -31,7 +31,7 @@ class AcaItemReqService {
 
     
     getItemDetails(item_no) {
-        return axios.get("http://localhost:5000/api/items/" + item_no);
+        return axios.get("https://invsys-1.onrender.com/api/items/" + item_no);
     }
     
 

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = 'http://localhost:5000/api/review-service/';
+const API_URL = 'https://invsys-1.onrender.com/api/review-service/';
 
 class ServiceReviewService {
     create(requestId, remarks, isApproved) {
