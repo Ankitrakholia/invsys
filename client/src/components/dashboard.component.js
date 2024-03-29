@@ -219,7 +219,7 @@ export default class BoardUser extends Component {
                                                                             </div>
                                                                             <div className="col-7 col-sm-12 col-lg-7">
                                                                                 <h4 className="display-4">11</h4>
-                                                                                <p className="text-muted"> Student Requests</p>
+                                                                                <p className="text-muted"> Total Sells</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -238,7 +238,7 @@ export default class BoardUser extends Component {
                                                                             </div>
                                                                             <div className="col-7 col-sm-12 col-lg-7">
                                                                                 <h4 className="display-4">1</h4>
-                                                                                <p className="text-muted"> To be Reviewed</p>
+                                                                                <p className="text-muted"> Pendding Requests</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -341,7 +341,7 @@ export default class BoardUser extends Component {
                                                                             </div>
                                                                             <div className="col-7 col-sm-12 col-lg-7">
                                                                                 <h4 className="display-4">1</h4>
-                                                                                <p className="text-muted"> Academic Requests</p>
+                                                                                <p className="text-muted"> Sells</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -360,7 +360,7 @@ export default class BoardUser extends Component {
                                                                             </div>
                                                                             <div className="col-7 col-sm-12 col-lg-7">
                                                                                 <h4 className="display-4">2</h4>
-                                                                                <p className="text-muted"> Student Requests</p>
+                                                                                <p className="text-muted"> Approved Requests</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -379,7 +379,7 @@ export default class BoardUser extends Component {
                                                                             </div>
                                                                             <div className="col-7 col-sm-12 col-lg-7">
                                                                                 <h4 className="display-4">2</h4>
-                                                                                <p className="text-muted"> Late Returns</p>
+                                                                                <p className="text-muted"> Approved Requests</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -463,7 +463,7 @@ export default class BoardUser extends Component {
                                                                             </div>
                                                                             <div className="col-7 col-sm-12 col-lg-7">
                                                                                 <h4 className="display-4">20</h4>
-                                                                                <p className="text-muted"> Total Components</p>
+                                                                                <p className="text-muted"> Total Item Sell</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -516,7 +516,7 @@ export default class BoardUser extends Component {
                                         </div>
                                         <hr />
                                         <div className="my-4">
-                                            {showStudentBoard &&
+                                            {/*showStudentBoard &&
                                                 <div>
                                                     <h4 className="card-title text-danger">Special Student Notices</h4>
                                                     <div className="list-group">
@@ -545,8 +545,8 @@ export default class BoardUser extends Component {
                                                             <small>Non Mipo.</small>
                                                         </div>
                                                     </div>
-                                                </div>}
-                                            {showAcademicBoard &&
+                                        </div>*/}
+                                            {/*showAcademicBoard &&
                                                 <div>
                                                     <h4 className="card-title text-danger">Special Academic Staff Notices</h4>
                                                     <div className="list-group">
@@ -575,8 +575,8 @@ export default class BoardUser extends Component {
                                                             <small>Non Mipo.</small>
                                                         </div>
                                                     </div>
-                                                </div>}
-                                            {showNonacBoard &&
+                                            </div>*/}
+                                            {/*showNonacBoard &&
                                                 <div>
                                                     <h4 className="card-title text-danger">Special Non-Academic Staff Notices</h4>
                                                     <div className="list-group">
@@ -605,7 +605,7 @@ export default class BoardUser extends Component {
                                                             <small>Non Mipo.</small>
                                                         </div>
                                                     </div>
-                                                </div>}
+                                            </div>*/}
 
                                         </div>
                                     </div>

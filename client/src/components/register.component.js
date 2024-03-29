@@ -282,20 +282,7 @@ export default class Register extends Component {
                                                     Distributer
                                             </label>
                                             </div>
-                                            <div className="form-check form-check-inline">
-                                                <input
-                                                    className="form-check-input"
-                                                    type="checkbox"
-                                                    name="roleValue"
-                                                    value={this.setState.roleValue = "student"}
-                                                    onChange={this.onChangeRoleValue}
-                                                    id="student" />
-                                                <label
-                                                    className="form-check-label"
-                                                    htmlFor="student">
-                                                    Seller
-                                            </label>
-                                            </div>
+                                            
                                         </div>
                                     </div>
 

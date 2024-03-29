@@ -135,7 +135,7 @@ export default class Login extends Component {
                                         </button>
                                     </div>
                                     <div className="form-group d-flex align-items-center justify-content-between mt-2 mb-0">
-                                        <a href="mailto:shanthakkar20@gnu.ac.in" className="text-primary text-decoration-none">
+                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYzinG7VCtGK40D2upxYz0PlFm0Ww5hjgoFr7yQbFIFIf4xw/viewform?usp=sf_link " className="text-primary text-decoration-none">
                                             <p><small>Don't have an account? Contact Us</small></p>
                                         </a>
                                     </div>
