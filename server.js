@@ -9,7 +9,7 @@ var corsOptions = {
     origin: "https://invsys-1.onrender.com",
 };
 
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
