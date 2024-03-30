@@ -128,12 +128,9 @@ class Sidebar extends Component {
                   <div className="collapse sub-menu" id="collapseReq">
                     <Link to={"/approve/item-requests"} className={"nav-link " +
                       (71 === this.state.currentIndex ? "active" : "")} onClick={() => this.setActiveItem(71)}>
-                      <i className="fas fa-angle-right fa-fw"></i> Component Requests
+                      <i className="fas fa-angle-right fa-fw"></i> Item Requests
                     </Link>
-                    <Link to={"/approve/service-requests"} className={"nav-link " +
-                      (72 === this.state.currentIndex ? "active" : "")} onClick={() => this.setActiveItem(72)}>
-                      <i className="fas fa-angle-right fa-fw"></i> Service Requests
-                    </Link>
+                    
                   </div>
                   
                 </div>
